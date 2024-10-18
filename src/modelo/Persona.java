@@ -69,10 +69,17 @@ edad.
 	}
 //metodo para calcular el IMC(Indece de Masa Corporal)
 	public double calculandoIMC() {
-		return peso /()altura*altura);
+		return peso /(altura*altura);
 		
+
 	}
+	//metodo para saber si es mayor de edad
+		public boolean esMayor() {
+			return edad= >18;
 	
+}	
+	
+		
 	
 	
 }
