@@ -68,6 +68,11 @@ edad.
 		this.altura = altura;
 	}
 //metodo para calcular el IMC(Indece de Masa Corporal)
+	public double calculandoIMC() {
+		return peso /()altura*altura);
+		
+	}
+	
 	
 	
 }
