@@ -26,6 +26,22 @@ edad.
 	private String nombre;
 	private int edad;
 	private double peso;
-	private double alura;
+	private double altura;
+	//constructor
+	/**
+	 * @param nombre
+	 * @param edad
+	 * @param peso
+	 * @param altura
+	 */
+	public Persona(String nombre, int edad, double peso, double altura) {
+		super();
+		this.nombre = nombre;
+		this.edad = edad;
+		this.peso = peso;
+		this.altura = altura;
+	}
+	
+	
 	
 }
