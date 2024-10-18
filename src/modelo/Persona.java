@@ -4,8 +4,11 @@ public class Persona {
 /*
  * EJERCICIO:
 Instrucciones para el desarrollo de la actividad:
-● En esta actividad deberás crear una clase persona con los siguientes atributos nombre,
-edad, peso y altura
+● En esta actividad deberás crear una clase persona con los siguientes 
+atributos nombre,
+edad, 
+peso 
+y altura
 ● Los atributos solo deben ser accedidos a través de métodos.
 ● Deberás crear un método constructor con todos los atributos como argumento.
 ● Deberás crear otra clase con un método main donde creará 5 instancias de clase (5
@@ -19,6 +22,10 @@ edad.
 	//cuarto creo el metodo constructor
 	//quinto se crea los getters y los setters
 	//sexto se crea los metodos toString para poder sobrescribir de ser necesasio
-	
+	//Atributos
+	private String nombre;
+	private int edad;
+	private double peso;
+	private double alura;
 	
 }
