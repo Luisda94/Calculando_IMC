@@ -78,6 +78,12 @@ edad.
 		return edad >= 18;
 			
 }	
+	//Creacion de toString para sobre escribir
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", edad=" + edad + ", peso=" + peso + ", altura m=" + altura + "]";
+	}
+	
 	
 		
 	
