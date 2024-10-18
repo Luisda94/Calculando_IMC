@@ -73,10 +73,10 @@ edad.
 		
 
 	}
-	//metodo para saber si es mayor de edad
-		public boolean esMayor() {
-			return edad= >18;
-	
+	//metodo para saber si es mayor de edad. //se hace boolean por o verdad o mentira. se coloca la condicion verdadera. >=a 18
+	public boolean esMayo(){
+		return edad >= 18;
+			
 }	
 	
 		
