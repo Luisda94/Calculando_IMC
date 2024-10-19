@@ -81,7 +81,7 @@ edad.
 }	
 
 	// Método para clasificar el IMC según los rangos estándar se aplica las condicionales if-else
-    public static String clasificarIMC(double imc) {
+    public String clasificarIMC(double imc) {
         if (imc < 18.5) {
             return "bajo de peso";
         } else if (imc >= 18.5 && imc < 24.9) {

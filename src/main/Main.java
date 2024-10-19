@@ -15,7 +15,25 @@ public class Main {
 
         // Crear un arreglo para las personas
         Persona[] personas = {persona1, persona2, persona3, persona4, persona5};
-
+        // Recorrer el arreglo para mostrar la información de cada persona
+        for (Persona persona : personas) {
+            // Calcular el IMC
+            double imc = persona.calculandoIMC();
+            // Verificar si es mayor de edad
+            String mayoriaDeEdad = persona.esMayor() ? "Mayor de edad" : "Menor de edad";
+            //Clasificacion del IMC
+            String clasificaionIMC = persona.clasificarIMC(imc);
+            // Imprimir información
+            
+         // Imprimir la información en el formato solicitado
+            System.out.println(persona.getNombre());
+            System.out.println("Calculando su IMC...");
+            System.out.printf("Su indice de masa muscular es: %.2f\n", imc);
+            System.out.println("Usted se encuentra " + clasificaionIMC);
+            System.out.println("Su edad es: " + persona.getEdad());
+            System.out.println(mayoriaDeEdad);System.out.println("");
+            System.out.println(persona.toString());
+        }
 
         }
 	}
